@@ -14,6 +14,7 @@ Para poder utilizar Ghostscan, necesitas tener instaladas las siguientes depende
 
 Una vez que hayas instalado estas dependencias necesarias para correr el codigo, puedes descargar Ghostscan y ejecutarlo en tu terminal.
     
+    git clone https://github.com/fufi16/GhostScan.git
 
   </body>
 </html>
