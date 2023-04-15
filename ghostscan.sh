@@ -138,7 +138,7 @@ if [ -n "$open_ports" ]; then
         results=""
         for port in $(echo "$open_ports" | tr ',' ' '); do
             echo "Escaneando servicio del puerto $port..."
-            scan_result=$(sudo nmap -sV -n -p $port 192.168.20.128)
+            scan_result=$(sudo nmap -sV -n -p $port $ip_address)
             port_number=$(echo "$scan_result" | awk '/open/{print $1}')
             service_name=$(echo "$scan_result" | awk '/open/{print $3}')
             service_version=$(echo "$scan_result" | awk '/open/{for(i=4;i<=NF;i++) printf "%s ", $i}')
