@@ -1,11 +1,4 @@
-# GhostScan
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    Ghostscan
-  </head>
-  <body>
+<body>
     <h1>Ghostscan</h1>
     <p>Ghostscan es una herramienta de escaneo de red que utiliza nmap para descubrir hosts y puertos abiertos. Además, utiliza netcat para escanear los puertos y mostrar información detallada de los mismos. También cuenta con la capacidad de generar texto en formato de banner utilizando figlet, y colorear el texto en la consola utilizando lolcat.</p>
 
