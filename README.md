@@ -11,17 +11,13 @@ Para poder utilizar Ghostscan, necesitas tener instaladas las siguientes depende
     sudo apt-get install nmap
     sudo apt-get install netcat
     sudo apt-get install bash
-
-Una vez que hayas instalado estas dependencias necesarias para correr el codigo, puedes descargar Ghostscan y ejecutarlo en tu terminal.
-    
     git clone https://github.com/fufi16/GhostScan.git
+
+<h2>Ejecución</h2>
     
-Una vez instalado, para ejecutar GhostScan deberemos irnos a la carpeta que contiene la descarda
+Una vez instalado todo lo necesario, para ejecutar GhostScan deberemos irnos a la carpeta que contiene la descarda y a continuación ejecutar el script.
 
     cd GhostScan
-    
-Y una vez ahí solo ejecutaremos el siguiente comando y si todo ha salido bien GhostScan se pondrá en marcha
-
     ./ghostscan.sh
     
   </body>
