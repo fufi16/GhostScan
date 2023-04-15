@@ -3,7 +3,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Ghostscan - Herramienta de escaneo de red</title>
+    Ghostscan
   </head>
   <body>
     <h1>Ghostscan</h1>
