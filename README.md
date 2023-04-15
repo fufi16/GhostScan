@@ -10,11 +10,10 @@ Para poder utilizar Ghostscan, necesitas tener instaladas las siguientes depende
     sudo apt-get install lolcat
     sudo apt-get install nmap
     sudo apt-get install netcat
-    <pre>
-sudo apt-get update
-sudo apt-get install figlet lolcat nmap netcat
-    </pre>
+    sudo apt-get install bash
 
-    <p>Una vez que hayas instalado estas dependencias, puedes descargar Ghostscan y ejecutarlo en tu terminal.</p>
+Una vez que hayas instalado estas dependencias necesarias para correr el codigo, puedes descargar Ghostscan y ejecutarlo en tu terminal.
+    
+
   </body>
 </html>
